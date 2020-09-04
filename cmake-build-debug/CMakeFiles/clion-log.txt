@@ -1,0 +1,4 @@
+Cannot generate into C:\Users\danny\OneDrive\Documents\Northwestern\Freshman Year\Winter\EECS-211\Homework\hwfp\cmake-build-debug
+Cannot read CMakeCache.txt
+
+Please either delete it manually or select another generation directory

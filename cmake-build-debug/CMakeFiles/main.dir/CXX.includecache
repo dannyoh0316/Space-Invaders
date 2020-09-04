@@ -1,0 +1,442 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../.eecs211/lib/ge211/include/ge211.h
+ge211_base.h
+../.eecs211/lib/ge211/include/ge211_base.h
+ge211_color.h
+../.eecs211/lib/ge211/include/ge211_color.h
+ge211_error.h
+../.eecs211/lib/ge211/include/ge211_error.h
+ge211_event.h
+../.eecs211/lib/ge211/include/ge211_event.h
+ge211_geometry.h
+../.eecs211/lib/ge211/include/ge211_geometry.h
+ge211_audio.h
+../.eecs211/lib/ge211/include/ge211_audio.h
+ge211_resource.h
+../.eecs211/lib/ge211/include/ge211_resource.h
+ge211_random.h
+../.eecs211/lib/ge211/include/ge211_random.h
+ge211_sprites.h
+../.eecs211/lib/ge211/include/ge211_sprites.h
+ge211_time.h
+../.eecs211/lib/ge211/include/ge211_time.h
+ge211_util.h
+../.eecs211/lib/ge211/include/ge211_util.h
+ge211_window.h
+../.eecs211/lib/ge211/include/ge211_window.h
+
+../.eecs211/lib/ge211/include/ge211_audio.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+ge211_time.h
+../.eecs211/lib/ge211/include/ge211_time.h
+ge211_util.h
+../.eecs211/lib/ge211/include/ge211_util.h
+memory
+-
+vector
+-
+
+../.eecs211/lib/ge211/include/ge211_base.h
+ge211_audio.h
+../.eecs211/lib/ge211/include/ge211_audio.h
+ge211_color.h
+../.eecs211/lib/ge211/include/ge211_color.h
+ge211_error.h
+../.eecs211/lib/ge211/include/ge211_error.h
+ge211_event.h
+../.eecs211/lib/ge211/include/ge211_event.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+ge211_geometry.h
+../.eecs211/lib/ge211/include/ge211_geometry.h
+ge211_random.h
+../.eecs211/lib/ge211/include/ge211_random.h
+ge211_resource.h
+../.eecs211/lib/ge211/include/ge211_resource.h
+ge211_session.h
+../.eecs211/lib/ge211/include/ge211_session.h
+ge211_time.h
+../.eecs211/lib/ge211/include/ge211_time.h
+memory
+-
+string
+-
+
+../.eecs211/lib/ge211/include/ge211_color.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+SDL_pixels.h
+-
+cstdint
+-
+
+../.eecs211/lib/ge211/include/ge211_error.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+exception
+-
+memory
+-
+sstream
+-
+string
+-
+
+../.eecs211/lib/ge211/include/ge211_event.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+ge211_error.h
+../.eecs211/lib/ge211/include/ge211_error.h
+sstream
+-
+string
+-
+
+../.eecs211/lib/ge211/include/ge211_forward.h
+
+../.eecs211/lib/ge211/include/ge211_geometry.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+ge211_util.h
+../.eecs211/lib/ge211/include/ge211_util.h
+SDL_rect.h
+-
+type_traits
+-
+utility
+-
+
+../.eecs211/lib/ge211/include/ge211_random.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+cstdint
+-
+limits
+-
+random
+-
+type_traits
+-
+
+../.eecs211/lib/ge211/include/ge211_render.h
+ge211_color.h
+../.eecs211/lib/ge211/include/ge211_color.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+ge211_geometry.h
+../.eecs211/lib/ge211/include/ge211_geometry.h
+ge211_window.h
+../.eecs211/lib/ge211/include/ge211_window.h
+ge211_util.h
+../.eecs211/lib/ge211/include/ge211_util.h
+memory
+-
+
+../.eecs211/lib/ge211/include/ge211_resource.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+ge211_util.h
+../.eecs211/lib/ge211/include/ge211_util.h
+ge211_error.h
+../.eecs211/lib/ge211/include/ge211_error.h
+string
+-
+vector
+-
+
+../.eecs211/lib/ge211/include/ge211_session.h
+
+../.eecs211/lib/ge211/include/ge211_sprites.h
+ge211_color.h
+../.eecs211/lib/ge211/include/ge211_color.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+ge211_geometry.h
+../.eecs211/lib/ge211/include/ge211_geometry.h
+ge211_time.h
+../.eecs211/lib/ge211/include/ge211_time.h
+ge211_render.h
+../.eecs211/lib/ge211/include/ge211_render.h
+ge211_resource.h
+../.eecs211/lib/ge211/include/ge211_resource.h
+vector
+-
+sstream
+-
+
+../.eecs211/lib/ge211/include/ge211_time.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+chrono
+-
+ratio
+-
+thread
+-
+
+../.eecs211/lib/ge211/include/ge211_util.h
+memory
+-
+string
+-
+sstream
+-
+
+../.eecs211/lib/ge211/include/ge211_window.h
+ge211_forward.h
+../.eecs211/lib/ge211/include/ge211_forward.h
+ge211_geometry.h
+../.eecs211/lib/ge211/include/ge211_geometry.h
+ge211_util.h
+../.eecs211/lib/ge211/include/ge211_util.h
+string
+-
+
+C:/MinGW/include/SDL2/SDL_config.h
+SDL_platform.h
+C:/MinGW/include/SDL2/SDL_platform.h
+
+C:/MinGW/include/SDL2/SDL_endian.h
+SDL_stdinc.h
+C:/MinGW/include/SDL2/SDL_stdinc.h
+endian.h
+-
+begin_code.h
+C:/MinGW/include/SDL2/begin_code.h
+close_code.h
+C:/MinGW/include/SDL2/close_code.h
+
+C:/MinGW/include/SDL2/SDL_error.h
+SDL_stdinc.h
+C:/MinGW/include/SDL2/SDL_stdinc.h
+begin_code.h
+C:/MinGW/include/SDL2/begin_code.h
+close_code.h
+C:/MinGW/include/SDL2/close_code.h
+
+C:/MinGW/include/SDL2/SDL_pixels.h
+SDL_stdinc.h
+C:/MinGW/include/SDL2/SDL_stdinc.h
+SDL_endian.h
+C:/MinGW/include/SDL2/SDL_endian.h
+begin_code.h
+C:/MinGW/include/SDL2/begin_code.h
+close_code.h
+C:/MinGW/include/SDL2/close_code.h
+
+C:/MinGW/include/SDL2/SDL_platform.h
+AvailabilityMacros.h
+C:/MinGW/include/SDL2/AvailabilityMacros.h
+TargetConditionals.h
+C:/MinGW/include/SDL2/TargetConditionals.h
+winapifamily.h
+-
+begin_code.h
+C:/MinGW/include/SDL2/begin_code.h
+close_code.h
+C:/MinGW/include/SDL2/close_code.h
+
+C:/MinGW/include/SDL2/SDL_rect.h
+SDL_stdinc.h
+C:/MinGW/include/SDL2/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/include/SDL2/SDL_error.h
+SDL_pixels.h
+C:/MinGW/include/SDL2/SDL_pixels.h
+SDL_rwops.h
+C:/MinGW/include/SDL2/SDL_rwops.h
+begin_code.h
+C:/MinGW/include/SDL2/begin_code.h
+close_code.h
+C:/MinGW/include/SDL2/close_code.h
+
+C:/MinGW/include/SDL2/SDL_rwops.h
+SDL_stdinc.h
+C:/MinGW/include/SDL2/SDL_stdinc.h
+SDL_error.h
+C:/MinGW/include/SDL2/SDL_error.h
+begin_code.h
+C:/MinGW/include/SDL2/begin_code.h
+close_code.h
+C:/MinGW/include/SDL2/close_code.h
+
+C:/MinGW/include/SDL2/SDL_stdinc.h
+SDL_config.h
+C:/MinGW/include/SDL2/SDL_config.h
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+stdarg.h
+-
+stdlib.h
+-
+malloc.h
+-
+stddef.h
+-
+stdarg.h
+-
+memory.h
+-
+string.h
+-
+strings.h
+-
+wchar.h
+-
+inttypes.h
+-
+stdint.h
+-
+ctype.h
+-
+math.h
+-
+float.h
+-
+sal.h
+-
+begin_code.h
+C:/MinGW/include/SDL2/begin_code.h
+alloca.h
+-
+malloc.h
+-
+malloc.h
+-
+malloc.h
+-
+stdlib.h
+-
+close_code.h
+C:/MinGW/include/SDL2/close_code.h
+
+C:/MinGW/include/SDL2/begin_code.h
+
+C:/MinGW/include/SDL2/close_code.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/alien.cpp
+alien.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/alien.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/alien.h
+ge211.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/ge211.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/alien_stack.cpp
+alien_stack.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/alien_stack.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/alien_stack.h
+ge211.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/ge211.h
+alien.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/alien.h
+geometry.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/geometry.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/barrier.h
+ge211.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/ge211.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/controller.cpp
+controller.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/controller.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/controller.h
+model.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/model.h
+view.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/view.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/geometry.h
+ge211.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/ge211.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/laser.cpp
+laser.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/laser.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/laser.h
+ge211.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/ge211.h
+user.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/user.h
+alien.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/alien.h
+barrier.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/barrier.h
+mystery.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/mystery.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/main.cpp
+model.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/model.h
+controller.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/controller.h
+geometry.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/geometry.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/model.cpp
+model.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/model.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/model.h
+ge211.h
+-
+vector
+-
+geometry.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/geometry.h
+alien_stack.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/alien_stack.h
+user.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/user.h
+mystery.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/mystery.h
+barrier.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/barrier.h
+laser.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/laser.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/mystery.cpp
+mystery.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/mystery.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/mystery.h
+ge211.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/ge211.h
+alien.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/alien.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/user.cpp
+user.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/user.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/user.h
+ge211.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/ge211.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/view.cpp
+view.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/view.h
+
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/view.h
+model.h
+C:/Users/danny/OneDrive/Documents/Northwestern/Freshman Year/Winter/EECS-211/Homework/hwfp/src/model.h
+string
+-
+
